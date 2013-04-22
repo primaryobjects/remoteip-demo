@@ -1,7 +1,7 @@
 RemoteIP
 --------
 
-A simple method for getting the client IP address for the remote browser.
+A simple method for getting the client IP address for the remote browser in node.js.
 
 ```bash
 $ npm install remoteip
