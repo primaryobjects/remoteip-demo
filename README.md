@@ -2,6 +2,7 @@ RemoteIP
 --------
 
 A simple method for getting the client IP address for the remote browser in node.js.
+Demo @ http://remoteip.herokuapp.com
 
 ```bash
 $ npm install remoteip
@@ -14,6 +15,7 @@ var remoteip = require('remoteip');
 // Get the IP address for the user.
 var ipAddress = remoteip.get(req);
 ```
+
 ## Notes
 
 The client IP address is determined by the following:
