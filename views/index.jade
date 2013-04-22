@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	div.container
+		h1 RemoteIP
+		p An example of getting the client IP address in node.js.
+
+		legend Example Usage of RemoteIP
+
+		.well
+			p $ npm install remoteip
+			p var remoteip = require('remoteip');
+			p console.log(remoteip.get(req));
+		
+		h2 #{ip}
